@@ -1,0 +1,49 @@
+.nav{
+    font-size: 20px;
+    width:100%;
+    height:30px;
+    background-color: rgb(80, 150, 126);
+    position:sticky;
+    top:1px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+nav ol{
+    margin-left: 25px;
+}
+.left{
+    background-image: url(../img/bg.jpg);
+    height:100%;
+    width:45%;
+    /* border:2px solid navy; */
+    margin:2px;
+    position:fixed;
+    left:-3px;
+    top:28px;
+    box-sizing: border-box;
+}
+.right{
+    min-height:800px;
+    width:59%;
+    /* border:2px solid navy; */
+    margin:2px;
+    position:relative;
+    left:599px;
+    box-sizing: border-box;
+    padding:20px;
+
+    
+}
+.heading{
+    display: block;
+}
+.ques{
+    display:block;
+}
+.options{
+    margin-right:10px;
+}
+
+ul{
+    list-style: none;
+}

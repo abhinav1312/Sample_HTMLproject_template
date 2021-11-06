@@ -1,0 +1,117 @@
+
+.header{
+    font-size: 60px;
+    height:120px;
+    width:100%;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    padding: 25px;
+    font-style: 'Montserrat', sans-serif;
+}
+.nav{
+    font-size: 20px;
+    width:100%;
+    height:30px;
+    background-color:#393E46;
+    position:sticky;
+    top:1px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+/* body{
+    height:3444px;
+} */
+.img{
+    height:250px;
+}
+.content{
+    display:flex;
+}
+.gen{
+    min-height:800px;
+    max-height:fit-content;
+    margin:2px;
+    border: 2px solid violet;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#art{
+    width: 75%;
+}
+#sec{
+    width: 25%;
+}
+.heading{
+    text-align: center;
+    font-size:200%;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.sec_h{
+    text-align: center;
+    font-size:150%;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+  
+/* registration page css  */
+
+.image{
+    background-image:url("img/img1.jpeg");
+    /* opacity:0.5; */
+    position:absolute;
+    background-size: cover;
+    top:0%;
+    right:0%;
+    bottom:0%;
+    left:0%;
+    
+}
+.form{
+    margin: auto;
+    list-style: none;
+    /* background-color: rgb(231 231 247); */
+    /* padding: 20px;
+    border: 5px solid rgb(123 122 125); */
+    width: 50%;
+    top: 100px;
+    position:relative;
+    
+}
+    
+    
+
+.form li{
+    margin:20px;
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+              
+}
+.form li input{
+    flex:3;
+}
+.form li label{
+
+    flex:1;
+}
+.form_heading{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top:100px;
+}
+.image{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    position: absolute;
+    content: none;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+    /* 3rd page */
+
+
